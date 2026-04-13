@@ -1,5 +1,3 @@
-# CODE OF CONDUCT
-
 ## Architecture
 
 - ### Client side
@@ -46,32 +44,3 @@
 - do code review by YOURSELF
 - request code review from TEAM MEMBER
 - request code merge from TEAM LEAD
-
-## Development rules
-
-1. ### Hard Code
-
-- don't hardcode any values
-- Examples
-  - storageName="storage"
-  - token_name="dfvdvf'
-
-2. ### Naming
-
-- Write a FULL NAME of variables, functions, files, etc.
-- Examples
-  - initializeInterceptors.ts
-  - onCreateReversedTransactionNode()
-- Use 'is\*' or 'has\*' prefixex for state naming
-- Examples
-  - isActive
-  - hasUserTransaction
-- Use 'on\*' for defining prop names for handle functions
-- Examples
-  - onDeleteTransaction
-  - onChangeState
-  - isActive
-- Use 'handle\*' prefix for defining handle functions
-- Examples
-  - handleSubmitButtonClick
-  - handleNameInputChange
